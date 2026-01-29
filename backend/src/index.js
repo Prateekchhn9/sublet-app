@@ -8,11 +8,11 @@ app.use(express.json());
 
 // Database connection
 const pool = new Pool({
-  host: 'dev-workwithme-db.ctowkuk0eokr.us-east-1.rds.amazonaws.com',
+  host: 'dev-us-east-1.rds.amazonaws.com',
   port: 5432,
-  database: 'workwithme',
-  user: 'subletadmin',
-  password: 'Summer#070' // CHANGE TO A STRONG PASSWORD,
+  database: 'workwith',
+  user: 'admin',
+  password: 'Sum' // CHANGE TO A STRONG PASSWORD,
 });
 
 // Test DB connection on startup
